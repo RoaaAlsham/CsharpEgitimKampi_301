@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\repos\\CsharpEgitimKampi_301\\PresentaionLayer\\PresentaionLayer.csproj": {}
+  },
+  "projects": {
+    "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\BusinessLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\BusinessLayer.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\DataAccessLayer.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\repos\\CsharpEgitimKampi_301\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "E:\\repos\\CsharpEgitimKampi_301\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\repos\\CsharpEgitimKampi_301\\EntityLayer\\EntityLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\repos\\CsharpEgitimKampi_301\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "E:\\repos\\CsharpEgitimKampi_301\\EntityLayer\\EntityLayer.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\repos\\CsharpEgitimKampi_301\\PresentaionLayer\\PresentaionLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\repos\\CsharpEgitimKampi_301\\PresentaionLayer\\PresentaionLayer.csproj",
+        "projectName": "PresentaionLayer",
+        "projectPath": "E:\\repos\\CsharpEgitimKampi_301\\PresentaionLayer\\PresentaionLayer.csproj",
+        "packagesPath": "C:\\Users\\Zahera\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\CsharpEgitimKampi_301\\PresentaionLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zahera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\BusinessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

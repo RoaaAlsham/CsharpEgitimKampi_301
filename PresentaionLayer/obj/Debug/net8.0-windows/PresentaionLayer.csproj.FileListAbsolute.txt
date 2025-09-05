@@ -1,0 +1,16 @@
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\bin\Debug\net8.0-windows\PresentaionLayer.exe
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\bin\Debug\net8.0-windows\PresentaionLayer.deps.json
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\bin\Debug\net8.0-windows\PresentaionLayer.runtimeconfig.json
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\bin\Debug\net8.0-windows\PresentaionLayer.dll
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\bin\Debug\net8.0-windows\PresentaionLayer.pdb
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.Form1.resources
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.csproj.GenerateResource.cache
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.AssemblyInfoInputs.cache
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.AssemblyInfo.cs
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.csproj.CoreCompileInputs.cache
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.dll
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\refint\PresentaionLayer.dll
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.pdb
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\PresentaionLayer.genruntimeconfig.cache
+E:\repos\CsharpEgitimKampi_301\PresentaionLayer\obj\Debug\net8.0-windows\ref\PresentaionLayer.dll
