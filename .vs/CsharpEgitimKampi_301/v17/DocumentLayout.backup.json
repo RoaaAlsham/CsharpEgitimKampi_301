@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "E:\\repos\\CsharpEgitimKampi_301\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|e:\\repos\\csharpegitimkampi_301\\entity___framework\\frmstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|solutionrelative:entity___framework\\frmstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AD55480-A08F-4E6F-98AB-BD1F6D276685}|PresentationLayer\\PresentationLayer.csproj|e:\\repos\\csharpegitimkampi_301\\presentationlayer\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD55480-A08F-4E6F-98AB-BD1F6D276685}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|e:\\repos\\csharpegitimkampi_301\\entity___framework\\frmstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|solutionrelative:entity___framework\\frmstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FA3523A-1DE3-4FC4-94DE-0EC4C9ED7DF5}|DataAccessLayer\\DataAccessLayer.csproj|e:\\repos\\csharpegitimkampi_301\\dataaccesslayer\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA3523A-1DE3-4FC4-94DE-0EC4C9ED7DF5}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|E:\\repos\\CsharpEgitimKampi_301\\entity___framework\\frmlocations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|solutionrelative:entity___framework\\frmlocations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5182F72A-12D3-45DD-A91E-561B68753F84}|BusinessLayer\\BusinessLayer.csproj|e:\\repos\\csharpegitimkampi_301\\businesslayer\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5182F72A-12D3-45DD-A91E-561B68753F84}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|e:\\repos\\csharpegitimkampi_301\\entity___framework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|solutionrelative:entity___framework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FA3523A-1DE3-4FC4-94DE-0EC4C9ED7DF5}|DataAccessLayer\\DataAccessLayer.csproj|e:\\repos\\csharpegitimkampi_301\\dataaccesslayer\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA3523A-1DE3-4FC4-94DE-0EC4C9ED7DF5}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|e:\\repos\\csharpegitimkampi_301\\entity___framework\\frmlocations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|solutionrelative:entity___framework\\frmlocations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5182F72A-12D3-45DD-A91E-561B68753F84}|BusinessLayer\\BusinessLayer.csproj|e:\\repos\\csharpegitimkampi_301\\businesslayer\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5182F72A-12D3-45DD-A91E-561B68753F84}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|E:\\repos\\CsharpEgitimKampi_301\\entity___framework\\frmlocations.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}|Entity___Framework\\Entity___Framework.csproj|solutionrelative:entity___framework\\frmlocations.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AD55480-A08F-4E6F-98AB-BD1F6D276685}|PresentationLayer\\PresentationLayer.csproj|e:\\repos\\csharpegitimkampi_301\\presentationlayer\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AD55480-A08F-4E6F-98AB-BD1F6D276685}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F01BFFDA-9586-458F-9A9E-8320FBEE64EF}|EntityLayer\\EntityLayer.csproj|e:\\repos\\csharpegitimkampi_301\\entitylayer\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F01BFFDA-9586-458F-9A9E-8320FBEE64EF}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,79 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\Program.cs",
-              "RelativeDocumentMoniker": "Entity___Framework\\Program.cs",
-              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\Program.cs",
-              "RelativeToolTip": "Entity___Framework\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T10:18:01.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmStatistics.cs",
-              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmStatistics.cs",
-              "RelativeDocumentMoniker": "Entity___Framework\\FrmStatistics.cs",
-              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmStatistics.cs*",
-              "RelativeToolTip": "Entity___Framework\\FrmStatistics.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAnwC4AAAAAAAAAAAAAAA==",
+              "Title": "FrmProduct.cs",
+              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\PresentationLayer\\FrmProduct.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\FrmProduct.cs",
+              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\PresentationLayer\\FrmProduct.cs",
+              "RelativeToolTip": "PresentationLayer\\FrmProduct.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA6wBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T10:08:31.012Z",
+              "WhenOpened": "2025-09-10T16:27:04.568Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmStatistics.cs [Design]",
-              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmStatistics.cs",
-              "RelativeDocumentMoniker": "Entity___Framework\\FrmStatistics.cs",
-              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmStatistics.cs [Design]*",
-              "RelativeToolTip": "Entity___Framework\\FrmStatistics.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T10:07:11.06Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FrmLocations.Designer.cs",
-              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmLocations.Designer.cs",
-              "RelativeDocumentMoniker": "Entity___Framework\\FrmLocations.Designer.cs",
-              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmLocations.Designer.cs",
-              "RelativeToolTip": "Entity___Framework\\FrmLocations.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
+              "Title": "FrmProduct.cs [Design]",
+              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\PresentationLayer\\FrmProduct.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\FrmProduct.cs",
+              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\PresentationLayer\\FrmProduct.cs [Design]",
+              "RelativeToolTip": "PresentationLayer\\FrmProduct.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T08:15:01.901Z",
+              "WhenOpened": "2025-09-10T16:20:56.565Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\Concrete\\ProductManager.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\ProductManager.cs",
+              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\Concrete\\ProductManager.cs",
+              "RelativeToolTip": "BusinessLayer\\Concrete\\ProductManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAApwA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:31:08.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FrmLocations.cs",
-              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmLocations.cs",
-              "RelativeDocumentMoniker": "Entity___Framework\\FrmLocations.cs",
-              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmLocations.cs",
-              "RelativeToolTip": "Entity___Framework\\FrmLocations.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAD4v08AAAAwAAAAAAAAAA==",
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\Abstract\\IProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Abstract\\IProductService.cs",
+              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\BusinessLayer\\Abstract\\IProductService.cs",
+              "RelativeToolTip": "BusinessLayer\\Abstract\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T08:11:50.752Z",
+              "WhenOpened": "2025-09-10T15:31:02.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmLocations.cs [Design]",
-              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmLocations.cs",
-              "RelativeDocumentMoniker": "Entity___Framework\\FrmLocations.cs",
-              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\Entity___Framework\\FrmLocations.cs [Design]",
-              "RelativeToolTip": "Entity___Framework\\FrmLocations.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "IProductDal.cs",
+              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\Abstract\\IProductDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Abstract\\IProductDal.cs",
+              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\Abstract\\IProductDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\Abstract\\IProductDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T06:25:13.999Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-10T15:30:26.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\EntityLayer\\Concrete\\Product.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Product.cs",
+              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\EntityLayer\\Concrete\\Product.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:23:51.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EfProductDal.cs",
+              "DocumentMoniker": "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\EntityFramework\\EfProductDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfProductDal.cs",
+              "ToolTip": "E:\\repos\\CsharpEgitimKampi_301\\DataAccessLayer\\EntityFramework\\EfProductDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfProductDal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:18:59.96Z",
+              "EditorCaption": ""
             }
           ]
         }

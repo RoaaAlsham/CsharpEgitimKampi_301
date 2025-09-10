@@ -14,3 +14,11 @@ E:\repos\CsharpEgitimKampi_301\PresentationLayer\obj\Debug\PresentationLayer.csp
 E:\repos\CsharpEgitimKampi_301\PresentationLayer\obj\Debug\Presenta.9C561136.Up2Date
 E:\repos\CsharpEgitimKampi_301\PresentationLayer\obj\Debug\PresentationLayer.exe
 E:\repos\CsharpEgitimKampi_301\PresentationLayer\obj\Debug\PresentationLayer.pdb
+E:\repos\CsharpEgitimKampi_301\PresentationLayer\bin\Debug\DataAccessLayer.dll
+E:\repos\CsharpEgitimKampi_301\PresentationLayer\bin\Debug\EntityLayer.dll
+E:\repos\CsharpEgitimKampi_301\PresentationLayer\bin\Debug\DataAccessLayer.pdb
+E:\repos\CsharpEgitimKampi_301\PresentationLayer\bin\Debug\DataAccessLayer.dll.config
+E:\repos\CsharpEgitimKampi_301\PresentationLayer\bin\Debug\EntityLayer.pdb
+E:\repos\CsharpEgitimKampi_301\PresentationLayer\bin\Debug\EntityLayer.dll.config
+E:\repos\CsharpEgitimKampi_301\PresentationLayer\obj\Debug\PresentationLayer.FrmCategory.resources
+E:\repos\CsharpEgitimKampi_301\PresentationLayer\obj\Debug\PresentationLayer.FrmProduct.resources
