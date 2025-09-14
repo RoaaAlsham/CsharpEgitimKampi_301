@@ -1,0 +1,7 @@
+E:\repos\CsharpEgitimKampi_301\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\repos\CsharpEgitimKampi_301\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\repos\CsharpEgitimKampi_301\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\repos\CsharpEgitimKampi_301\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+E:\repos\CsharpEgitimKampi_301\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\repos\CsharpEgitimKampi_301\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\repos\CsharpEgitimKampi_301\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

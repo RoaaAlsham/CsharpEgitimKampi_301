@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "Presen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity___Framework", "Entity___Framework\Entity___Framework.csproj", "{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpEgitimKampi_501_Dapper_Project", "CsharpEgitimKampi_501_Dapper_Project\CsharpEgitimKampi_501_Dapper_Project.csproj", "{8095D1A0-7DA0-4C69-8B7B-0CFEACE8FBBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C9820DD-9017-4AA0-A5F1-802FF9CF0C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8095D1A0-7DA0-4C69-8B7B-0CFEACE8FBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8095D1A0-7DA0-4C69-8B7B-0CFEACE8FBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8095D1A0-7DA0-4C69-8B7B-0CFEACE8FBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8095D1A0-7DA0-4C69-8B7B-0CFEACE8FBBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
