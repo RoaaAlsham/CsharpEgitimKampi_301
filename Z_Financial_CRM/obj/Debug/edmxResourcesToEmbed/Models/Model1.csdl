@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EgitimKampi_Financial_CRM_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="BankProcess">
+    <Key>
+      <PropertyRef Name="BankProcessId" />
+    </Key>
+    <Property Name="BankProcessId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="ProcessDate" Type="DateTime" Precision="0" />
+    <Property Name="ProcessType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Amount" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="BankId" Type="Int32" />
+    <NavigationProperty Name="Bank" Relationship="Self.FK_BankProcess_Banks" FromRole="BankProcess" ToRole="Banks" />
+  </EntityType>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="BankId" />
+    </Key>
+    <Property Name="BankId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BankName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="BankAccountNumber" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="BankBalance" Type="Decimal" Precision="16" Scale="2" />
+    <NavigationProperty Name="BankProcesses" Relationship="Self.FK_BankProcess_Banks" FromRole="Banks" ToRole="BankProcess" />
+  </EntityType>
+  <EntityType Name="Bill">
+    <Key>
+      <PropertyRef Name="BillId" />
+    </Key>
+    <Property Name="BillId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BillTitle" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="BillAmount" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="BillPeriod" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Spendings" Relationship="Self.FK_Spendings_Categories" FromRole="Categories" ToRole="Spendings" />
+  </EntityType>
+  <EntityType Name="Spending">
+    <Key>
+      <PropertyRef Name="SpendingId" />
+    </Key>
+    <Property Name="SpendingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SpendingTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SpendingAmount" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="SpendingDate" Type="DateTime" Precision="0" />
+    <Property Name="CategoryId" Type="Int32" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Spendings_Categories" FromRole="Spendings" ToRole="Categories" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_BankProcess_Banks">
+    <End Role="Banks" Type="Self.Bank" Multiplicity="0..1" />
+    <End Role="BankProcess" Type="Self.BankProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banks">
+        <PropertyRef Name="BankId" />
+      </Principal>
+      <Dependent Role="BankProcess">
+        <PropertyRef Name="BankId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Spendings_Categories">
+    <End Role="Categories" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Spendings" Type="Self.Spending" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Spendings">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EgitimKampi_Financial_CRM_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admins" EntityType="Self.Admin" />
+    <EntitySet Name="BankProcesses" EntityType="Self.BankProcess" />
+    <EntitySet Name="Banks" EntityType="Self.Bank" />
+    <EntitySet Name="Bills" EntityType="Self.Bill" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Spendings" EntityType="Self.Spending" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_BankProcess_Banks" Association="Self.FK_BankProcess_Banks">
+      <End Role="Banks" EntitySet="Banks" />
+      <End Role="BankProcess" EntitySet="BankProcesses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Spendings_Categories" Association="Self.FK_Spendings_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Spendings" EntitySet="Spendings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
